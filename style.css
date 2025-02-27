@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80vh;
+    background-image: url(images/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.868);
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+.nav-left h1{
+    color: red;
+    margin: 5px 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-left span{
+    color: green;
+}
+.nav-left p{
+    margin: 0;
+    color: black;
+}
+.nav-right{
+    margin-top: 40px;
+}
+.nav-right a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(29, 185, 185);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nav-right a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline black;
+}
+
+section h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+section p{
+    text-align: center;
+    font-size: 15px;
+}
+#servicse{
+    height: 70vh;
+    background-color: rgb(13, 127, 176);
+    color: white;
+    font-family: sans-serif;
+}
+.servicse{
+    display: flex;
+    justify-content: space-around;
+}
+.s1{
+    border: 2px rgb(1, 131, 173) solid;
+    height: 30vh;
+    margin: 10px;
+    background-color: rgb(49, 167, 206);
+}
+.s1 h2{
+    text-align: center;
+    font-size: 25px;
+}
+.s1:hover{
+    cursor: pointer;
+    background-color:  rgb(35, 130, 170);
+    transform: scale(1.1);
+    border: 2px solid rgb(35, 130, 170);
+}
+.s1 p{
+    font-size: 13px;
+}
+
+
+#aboutus{
+    height: 80vh;
+}
+#aboutus h2{
+    color:rgb(29, 185, 185);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutus p{
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.b1 img{
+    margin: 20px;
+    height: 350px;
+    width: 450px;
+}
+.b2{
+    width: 450px;
+}
+.b2 h2{
+   margin: 0;
+   padding: 0;
+}
+.b2 p{
+    color: black;
+    text-align: left;
+}
+
+
+#team{
+    height: 100vh;
+}
+#team h2{
+    text-align: center;
+    color: rgb(13, 127, 176);
+    font-family: sans-serif;
+    font-size: 40px;
+} 
+.team{
+    display: flex;
+    justify-content: space-evenly;
+}
+.drocter{
+    height: 400px;
+    width: 260px;
+}
+.drocter img{
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+}
+.drocter h3{
+    color:  rgb(13, 127, 176);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.drocter span{
+    margin-left: 43px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.drocter button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 2px 40px;
+    background-color: rgb(84, 191, 237); 
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.drocter button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 127, 176);
+    
+}
+
+
+#contactus{
+    height: 50vh;
+    background-color: rgb(13, 127, 176);
+    margin-bottom: 10px;
+}
+#contactus h2,p,h4{
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#contactus h2{
+    padding-top: 75px;
+}
+footer{
+    background-color:  white;
+}
+footer p{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(13, 127, 176);
+    height: 5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
